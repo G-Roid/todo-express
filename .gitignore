@@ -1,0 +1,2 @@
+node_modules
+DB_STRING = 'mongodb+srv://superman:muni@cluster0.iaqjd5q.mongodb.net/?retryWrites=true&w=majority'
