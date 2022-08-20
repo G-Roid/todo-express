@@ -84,7 +84,6 @@ app.put('/markNotComplete', (request, response) => {
     .catch(error => console.error(error))
 
 })
-
-app.listen(process.env.PORT || PORT, () => {
-    console.log(`server running on ${PORT}`)
+app.listen(process.env.PORT || PORT, ()=>{
+    console.log(`Server running on port ${PORT}`)
 })
